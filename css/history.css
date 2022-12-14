@@ -2,7 +2,7 @@
 
 .history-1 {
     height: 100vh;
-    background: url("/img/history-img1.jpg") no-repeat center center;
+    background: url("../img/history-img1.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;

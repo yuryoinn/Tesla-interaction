@@ -1,6 +1,6 @@
 .model-3-intro {
     height: 100vh;
-    background: url("/img/model-3.jpeg") no-repeat center center;
+    background: url("../img/model-3.jpeg") no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
