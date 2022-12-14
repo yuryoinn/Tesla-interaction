@@ -34,7 +34,8 @@
 }
 
 .intro-desc3 div {
-    margin: 50px;
+    margin: 0 50px;
+    padding-top: 50px;
 }
 
 .intro-desc3 .desc1 h3 {
@@ -109,7 +110,7 @@
 .perform-img {
     width: 100%;
     height: 80vh;
-    background: url("/img/model-3-perform.jpeg") no-repeat center center;
+    background: url("../img/model-3-perform.jpeg") no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -119,7 +120,7 @@
     height: 30vh;
 }
 
-#pf {
+.pf {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +128,6 @@
 }
 
 .perform-title {
-    border: 1px solid red;
     padding-right: 100px;
 }
 
@@ -152,10 +152,22 @@
     color: #393c41;
 }
 
+.moter {
+    width: 100%;
+}
+
+.moter-img {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/model-3-moter.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
 
 
 .model-3-wrap {
-    width: 200%;
+    width: 300%;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;

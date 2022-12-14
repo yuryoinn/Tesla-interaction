@@ -3,17 +3,12 @@ gsap.registerPlugin(ScrollTrigger);
 const scenes = gsap.utils.toArray('.sec');
 
 const his2Scene = gsap.timeline({
-    // This code is wrong. it doesn't work properly
     scrollTrigger: {
       trigger: ".history-2",
       scrub: true,
       pin: true,
       start: "center center",
-      end: "bottom 0",
-      markers: {
-        startColor: "red",
-        endColor: "red",
-      }
+      end: "bottom 0"
     }
   });
 
@@ -33,11 +28,7 @@ const his3Scene = gsap.timeline({
       scrub: true,
       pin: true,
       start: "center center",
-      end: "bottom 0",
-      markers: {
-        startColor: "red",
-        endColor: "red",
-      }
+      end: "bottom 0"
     }
   });
 
@@ -87,6 +78,45 @@ let duration2 = 2,
 tl2.to(sections2, {
   xPercent: -100 * (sections2.length - 1),
   duration2: duration2,
+  ease: "none"
+});
+
+let duration3 = 2,
+    sections3 = gsap.utils.toArray(".panel3"),
+    sectionIncrement3 = duration3 / (sections3.length - 1),
+    tl3 = gsap.timeline({
+			scrollTrigger: {
+				trigger: ".model-x-wrap",
+				pin: true,
+				scrub: 1,
+				start: "top top",
+				end: "+=5000"
+			}
+		});
+
+tl3.to(sections3, {
+  xPercent: -100 * (sections3.length - 1),
+  duration3: duration3,
+  ease: "none"
+});
+
+
+let duration4 = 2,
+    sections4 = gsap.utils.toArray(".panel4"),
+    sectionIncrement4 = duration4 / (sections4.length - 1),
+    tl4 = gsap.timeline({
+			scrollTrigger: {
+				trigger: ".model-y-wrap",
+				pin: true,
+				scrub: 1,
+				start: "top top",
+				end: "+=5000"
+			}
+		});
+
+tl4.to(sections4, {
+  xPercent: -100 * (sections4.length - 1),
+  duration4: duration4,
   ease: "none"
 });
 

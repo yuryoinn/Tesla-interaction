@@ -1,0 +1,64 @@
+.model-y-intro {
+    height: 100vh;
+    background: url("../img/model-y.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.model-y-intro .heading {
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+.model-y-intro .heading h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    color: #000;
+}
+
+.model-y-intro .heading p {
+    margin: 0;
+    font-size: 25px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.in-y {
+    width: 100%;
+}
+
+.in-y-img {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/model-y-interier.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.auto {
+    width: 100%;
+}
+
+.auto-y-img {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/model-y-auto.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.model-y-wrap {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.panel4 {
+    will-change: transform;
+}

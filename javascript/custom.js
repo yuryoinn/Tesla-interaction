@@ -13,4 +13,15 @@ $(function() {
         $('.fadeText').delay(3500).fadeIn(4000);
 		$('.mouse').delay(5000).fadeIn(4000);
 	})
+    
+    AOS.init();
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 50) {
+          $('.btn-top').addClass('active')
+        }
+        else {
+          $('.btn-top').removeClass('active')  
+        }
+    });
 })

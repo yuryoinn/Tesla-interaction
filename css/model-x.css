@@ -1,25 +1,25 @@
-.model-s-intro {
+.model-x-intro {
     height: 100vh;
-    background: url("../img/model-s.jpeg") no-repeat center center;
+    background: url("../img/model-x.jpeg") no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.model-s-intro .heading {
+.model-x-intro .heading {
     padding-bottom: 350px;
     text-align: center;
 }
 
-.model-s-intro .heading h1 {
+.model-x-intro .heading h1 {
     font-family: 'Exo 2', sans-serif;
     font-size: 40px;
     line-height: 1.6em;
     color: #000;
 }
 
-.model-s-intro .heading p {
+.model-x-intro .heading p {
     margin: 0;
     font-size: 25px;
     color: #000;
@@ -105,125 +105,40 @@
     color: #fff;
 }
 
-/* =================== Section - interier =================== */
-
-.interier {
-    background-color: #000;
+.plaid {
     width: 100%;
-    height: 100vh;
 }
 
-.interier .heading {
-    padding: 250px 0 100px 0;
-    text-align: center;
-}
-
-.interier .heading h2 {
-    font-size: 40px;
-    font-family: 'Exo 2', sans-serif;
-    color: #fff;
-}
-
-.interier .heading p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-}
-
-.interier-wrap {
+.plaid-img {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/model-x-plaid.jpeg") no-repeat center center;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.interier-content1,
-.interier-content2 {
-    margin-right: 40px;
-}
-
-.interier-img {
-    width: 400px;
-}
-
-.interier-img img {
+.util {
     width: 100%;
 }
 
-.interier-wrap .desc h3 {
-    font-size: 22px;
-    color: #fff;
-    margin: 30px 0;
-}
-
-.interier-wrap .desc p {
-    font-size: 14px;
-    color: #fff;
-}
-
-/* =================== Section - outerier =================== */
-
-.outerier {
-    background-color: #fff;
+.util-img {
     width: 100%;
-    height: 100vh;
-}
-
-.outerier .heading {
-    padding: 250px 0 100px 0;
-    text-align: center;
-}
-
-.outerier .heading h2 {
-    font-size: 40px;
-    font-family: 'Exo 2', sans-serif;
-    color: #000;
-}
-
-.outerier .heading p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #000;
-}
-
-.outerier-wrap {
+    height: 80vh;
+    background: url("../img/model-x-util.jpeg") no-repeat center center;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.outerier-content1,
-.outerier-content2 {
-    margin-right: 40px;
-}
 
-.outerier-img {
-    width: 400px;
-}
-
-.outerier-img img {
-    width: 100%;
-}
-
-.outerier-wrap .desc h3 {
-    font-size: 22px;
-    color: #000;
-    margin: 30px 0;
-}
-
-.outerier-wrap .desc p {
-    font-size: 14px;
-    color: #000;
-}
-
-/* 레이아웃 */
-
-.model-s-wrap {
+.model-x-wrap {
     width: 300%;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.panel {
+.panel3 {
     will-change: transform;
 }

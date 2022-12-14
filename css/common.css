@@ -31,6 +31,10 @@ body {
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* =================== Reset CSS =================== */
 
 * {
@@ -96,4 +100,25 @@ ul {
     100% {
         top: 5.5px;
     }
+}
+
+/* Scroll Top BTN */
+
+.btn-top {
+    position: fixed;
+    right: 50px;
+    bottom: -50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.btn-top.active {
+    bottom: 50px;
 }

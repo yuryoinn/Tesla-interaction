@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="./css/model.css">
     <link rel="stylesheet" href="./css/model-s.css">
     <link rel="stylesheet" href="./css/model-3.css">
+    <link rel="stylesheet" href="./css/model-x.css">
+    <link rel="stylesheet" href="./css/model-y.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
     <div class="container">
@@ -39,18 +42,19 @@
             </div>
             <nav>
                 <div class="logo">
-                    <a href="./index.html"><img src="./img/logo-white.png" alt="Tesla Logo"></a>
+                    <a href="#feature0"><img src="./img/logo-white.png" alt="Tesla Logo"></a>
                 </div>
                 <ul class="gnb">
-                    <li><a href="./history.html">Brand Story</a></li>
-                    <li><a href="./model.html">Model</a></li>
-                    <li><a href="./energy.html">Energy System</a></li>
-                    <li><a href="./impact.html">Impact</a></li>
-                    <li><a href="./drive.html">Drive</a></li>
+                    <li><a href="#feature1">Brand Story</a></li>
+                    <li><a href="#feature2">Model S</a></li>
+                    <li><a href="#feature3">Model 3</a></li>
+                    <li><a href="#feature4">Model X</a></li>
+                    <li><a href="#feature5">Model Y</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="intro">
+        <a href="#" class="btn-top"><i class="xi-angle-up-thin"></i></a>
+        <main class="intro" id="feature0">
             <div class="inner">
                 <div class="heading">
                     <p>
@@ -69,9 +73,9 @@
             </div>
         </main>
         <!-- Section : history-1 -->
-        <section class="history-1">
+        <section class="history-1" id="feature1">
             <div class="inner">
-                <div class="heading">
+                <div class="heading" data-aos="fade-right" data-aos-duration="1000">
                     <p>
                         2003년 설립된 <span>Tesla</span> 가 고작 100명의 직원으로 만들어낸 전기차를<br>
                         세상에 처음 내놓은 날부터 자동차 업계에 새로운 역사가 쓰이기 시작했다.<br>
@@ -135,11 +139,11 @@
         <section class="model-intro">
             <div class="inner">
                 <div class="heading">
-                    <h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700">
                         전기차의 혁신을 보여줄 테슬라의<br>
                         <em>4가지 모델을 소개합니다.</em>
                     </h1>
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="700">
                         Model S-3-X-Y
                     </p>
                     <div class="mouse">
@@ -149,7 +153,7 @@
             </div>
         </section>
         <div class="model-s-wrap">
-            <section class="model-s-intro panel">
+            <section class="model-s-intro panel" id="feature2">
                 <div class="inner">
                     <div class="heading">
                         <h1>
@@ -161,14 +165,14 @@
                     </div>
                     <div class="intro-desc">
                         <div class="desc1">
-                            <h3>
+                            <h3 data-aos="fade-up">
                                 483 <span>KM</span>
                             </h3>
                             <p>
                                 주행가능거리
                             </p>
                         </div>
-                        <div class="desc2">
+                        <div class="desc2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
                             <h3>
                                 2.1 <span>초</span>
                             </h3>
@@ -177,7 +181,7 @@
                             </p>
                         </div>
                         <div class="desc3">
-                            <h3>
+                            <h3 data-aos="fade-up" data-aos-delay="400" data-aos-duration="700">
                                 322 <span>km/h</span>
                             </h3>
                             <p>
@@ -185,7 +189,7 @@
                             </p>
                         </div>
                         <div class="desc4">
-                            <h3>
+                            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
                                 1,020 <span>hp</span>
                             </h3>
                             <p>
@@ -292,7 +296,7 @@
             </section>
         </div>
         <div class="model-3-wrap">
-            <section class="model-3-intro panel2">
+            <section class="model-3-intro panel2" id="feature3">
                 <div class="inner">
                     <div class="heading">
                         <h1>
@@ -304,7 +308,7 @@
                     </div>
                     <div class="intro-desc3">
                         <div class="desc1">
-                            <h3>
+                            <h3 data-aos="fade-up">
                                 528 <span>KM</span>
                             </h3>
                             <p>
@@ -312,7 +316,7 @@
                             </p>
                         </div>
                         <div class="desc2">
-                            <h3>
+                            <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
                                 3.3 <span>초</span>
                             </h3>
                             <p>
@@ -320,7 +324,7 @@
                             </p>
                         </div>
                         <div class="desc3">
-                            <h3>
+                            <h3 data-aos="fade-up" data-aos-delay="400" data-aos-duration="700">
                                 322 <span>km/h</span>
                             </h3>
                             <p>
@@ -328,7 +332,7 @@
                             </p>
                         </div>
                         <div class="desc4">
-                            <h3>
+                            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
                                 AWD
                             </h3>
                             <p>
@@ -344,7 +348,7 @@
             <section class="perform panel2">
                 <div class="perform-img"></div>
                 <div class="perform-desc">
-                    <div class="inner" id="pf">
+                    <div class="inner pf">
                         <div class="perform-title">
                             <h2>Performance</h2>
                             <h3>압도적인 가속력</h3>
@@ -354,6 +358,197 @@
                                 Model 3는 듀얼 모터 상시 사륜구동(AWD), 20인치 Überturbine 휠 및 퍼포먼스 브레이크 옵션을 장착하여<br>
                                 어떤 기후 조건에서도 완벽하게 제어할 수 있습니다. 카본 파이버 스포일러가 고속 주행 시 안정성을 향상시켜<br>
                                 Model 3의 0-100 km/h* 도달시간이 약 3.3초에 불과합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="moter panel2">
+                <div class="moter-img"></div>
+                <div class="perform-desc">
+                    <div class="inner pf">
+                        <div class="perform-title">
+                            <h2>AWD</h2>
+                            <h3>듀얼 모터</h3>
+                        </div>
+                        <div class="perform-p">
+                            <p>
+                                Tesla 상시 사륜구동(AWD)에 탑재된 두 개의 독립 모터는 향상된 효율성과 우수한 내구성을 제공하며<br>
+                                차량의 유지보수를 최소화하는데 도움이 됩니다. 또한, Tesla 상시 사륜구동(AWD)은 전통적인 시스템과<br>
+                                달리 전륜 및 후륜에 전달하는 토크를 디지털 방식으로 제어하여 한층 더 뛰어난 핸들링과 트랙션 컨트롤을 제공합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="model-x-wrap">
+            <section class="model-x-intro panel3" id="feature4">
+                <div class="inner">
+                    <div class="heading">
+                        <h1>
+                            MODEL&nbsp; X
+                        </h1>
+                        <p>
+                            Plaid
+                        </p>
+                    </div>
+                    <div class="intro-desc">
+                        <div class="desc1">
+                            <h3 data-aos="fade-up">
+                                478 <span>KM</span>
+                            </h3>
+                            <p>
+                                주행가능거리
+                            </p>
+                        </div>
+                        <div class="desc2">
+                            <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
+                                2.6 <span>초</span>
+                            </h3>
+                            <p>
+                                0-100 km/h*
+                            </p>
+                        </div>
+                        <div class="desc3">
+                            <h3 data-aos="fade-up" data-aos-delay="400" data-aos-duration="700">
+                                9.9 <span>초</span>
+                            </h3>
+                            <p>
+                                쿼터 마일
+                            </p>
+                        </div>
+                        <div class="desc4">
+                            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                                1,020 <span>hp</span>
+                            </h3>
+                            <p>
+                                최대출력
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mouse">
+                        <span class="wheele"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="plaid panel3">
+                <div class="plaid-img"></div>
+                <div class="perform-desc">
+                    <div class="inner pf">
+                        <div class="perform-title">
+                            <h2>Performance</h2>
+                            <h3>압도적인 가속력</h3>
+                        </div>
+                        <div class="perform-p">
+                            <p>
+                                Model 3는 듀얼 모터 상시 사륜구동(AWD), 20인치 Überturbine 휠 및 퍼포먼스 브레이크 옵션을 장착하여<br>
+                                어떤 기후 조건에서도 완벽하게 제어할 수 있습니다. 카본 파이버 스포일러가 고속 주행 시 안정성을 향상시켜<br>
+                                Model 3의 0-100 km/h* 도달시간이 약 3.3초에 불과합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="util panel3">
+                <div class="util-img"></div>
+                <div class="perform-desc">
+                    <div class="inner pf">
+                        <div class="perform-title">
+                            <h2>Utility</h2>
+                            <h3>효율성을 위한 외부 설계</h3>
+                        </div>
+                        <div class="perform-p">
+                            <p>
+                                Model X는 .24Cd에 불과한 공기저항 계수를 자랑합니다. 정제된 공기역학적 요소들은 새로운 휠 및 타이어와 함께<br> 
+                                한층 더 길어진 장거리 여행, 정확한 핸들링 및 향상된 승차감을 제공합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="model-y-wrap">
+            <section class="model-y-intro panel4" id="feature5">
+                <div class="inner">
+                    <div class="heading">
+                        <h1>
+                            MODEL&nbsp; Y
+                        </h1>
+                        <p>
+                            Plaid
+                        </p>
+                    </div>
+                    <div class="intro-desc">
+                        <div class="desc1">
+                            <h3 data-aos="fade-up">
+                                511 <span>KM</span>
+                            </h3>
+                            <p>
+                                주행가능거리
+                            </p>
+                        </div>
+                        <div class="desc2">
+                            <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
+                                2,100 <span>+</span>
+                            </h3>
+                            <p>
+                                적재 공간 (리터)
+                            </p>
+                        </div>
+                        <div class="desc3">
+                            <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
+                                322 <span>km/h</span>
+                            </h3>
+                            <p>
+                                최고속도†
+                            </p>
+                        </div>
+                        <div class="desc4">
+                            <h3 data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
+                                AWD
+                            </h3>
+                            <p>
+                                듀얼모터
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mouse">
+                        <span class="wheele"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="in-y panel4">
+                <div class="in-y-img"></div>
+                <div class="perform-desc">
+                    <div class="inner pf">
+                        <div class="perform-title">
+                            <h2>Model Y Interier</h2>
+                            <h3>운전자 중심의 디자인</h3>
+                        </div>
+                        <div class="perform-p">
+                            <p>
+                                높은 좌석 위치와 낮은 대시보드 위치는 운전자에게 탁 트인 전방 도로 시야를 제공합니다.<br>
+                                Model Y는 15인치 터치스크린, 몰입형 사운드 시스템 및 추가 헤드룸과 완벽한 스카이 뷰를 <br>
+                                제공하는 확장형 완전 글래스 루프로 심플하고 깔끔한 인테리어를 제공합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="auto panel4">
+                <div class="auto-y-img"></div>
+                <div class="perform-desc">
+                    <div class="inner pf">
+                        <div class="perform-title">
+                            <h2>Model Y Interier</h2>
+                            <h3>운전자 중심의 디자인</h3>
+                        </div>
+                        <div class="perform-p">
+                            <p>
+                                높은 좌석 위치와 낮은 대시보드 위치는 운전자에게 탁 트인 전방 도로 시야를 제공합니다.<br>
+                                Model Y는 15인치 터치스크린, 몰입형 사운드 시스템 및 추가 헤드룸과 완벽한 스카이 뷰를 <br>
+                                제공하는 확장형 완전 글래스 루프로 심플하고 깔끔한 인테리어를 제공합니다.
                             </p>
                         </div>
                     </div>
@@ -387,6 +582,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <!-- TypeIt PlugIn -->
     <script src="./javascript/typeit.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom JS -->
     <script src="./javascript/custom.js"></script>
     <script src="./javascript/scroll.js"></script>
