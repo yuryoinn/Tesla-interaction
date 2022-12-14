@@ -1,0 +1,82 @@
+/* =================== Header - banner =================== */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.banner {
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.lnb {
+    width: 1300px;
+    margin: auto;
+    text-align: right;
+}
+
+.lnb a {
+    margin: 10px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.lnb a:hover .fa {
+    font-size: 18px;
+    transition: font-size, 0.5s;
+}
+
+.lnb a:last-child {
+    margin-right: 0;
+}
+
+.fa {
+    padding-right: 3px;
+}
+
+/* =================== Main - intro =================== */
+
+.intro {
+    height: 100vh;
+    background: url("../img/history.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro .heading {
+    color: #fff;
+    text-align: center;
+}
+
+.intro .heading p {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+.intro .heading h1 {
+    padding-bottom: 25px;
+    font-size: 56px;
+    line-height: 1.4em;
+}
+
+.intro .heading h1 em {
+    display: block;
+    font-size: 46px;
+    font-style: normal;
+    color: #fff;
+}
+
+.intro .heading .fadeText {
+    display: none;
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,166 @@
+.model-3-intro {
+    height: 100vh;
+    background: url("/img/model-3.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.model-3-intro .heading {
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+.model-3-intro .heading h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    color: #fff;
+}
+
+.model-3-intro .heading p {
+    margin: 0;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.intro-desc3 {
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-desc3 div {
+    margin: 50px;
+}
+
+.intro-desc3 .desc1 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc3 .desc1 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc3 .desc1 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc3 .desc2 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc3 .desc2 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc3 .desc2 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc3 .desc3 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc3 .desc3 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc3 .desc3 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc3 .desc4 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.intro-desc3 .desc4 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.perform {
+    width: 100%;
+}
+
+.perform-img {
+    width: 100%;
+    height: 80vh;
+    background: url("/img/model-3-perform.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.perform-desc {
+    height: 30vh;
+}
+
+#pf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.perform-title {
+    border: 1px solid red;
+    padding-right: 100px;
+}
+
+.perform-p {
+    padding-left: 100px;
+}
+
+.perform-title h2 {
+    font-size: 22px;
+    color: #171a20;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.perform-title h3 {
+    font-size: 30px;
+    color: #171a20;
+}
+
+.perform-p p {
+    font-size: 15px;
+    color: #393c41;
+}
+
+
+
+.model-3-wrap {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.panel2 {
+    will-change: transform;
+}

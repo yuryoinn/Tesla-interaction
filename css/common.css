@@ -1,0 +1,99 @@
+/* =================== Web Fonts =================== */
+
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* XEION CDN */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+/* Google Web Font - Pretandard KR */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/* Google Web Font - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Google Web Font - Exo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap');
+
+/* =================== Default CSS =================== */
+
+* {
+    font-family: Pretendard, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    color: #222;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* =================== Reset CSS =================== */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input {
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =================== Common CSS =================== */
+
+.inner {
+    width: 1300px;
+    margin: auto;
+}
+
+/* Mouse Wheele */
+
+.mouse {
+    width: 25px;
+    height: 35px;
+    margin: 16px 634px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    position: absolute;
+    display: none;
+}
+
+.wheele {
+    width: 2.5px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 5.5px;
+    left: 9.5px;
+    animation: wheele 1.2s linear infinite;
+}
+
+@keyframes wheele {
+    0% {
+        top: 5.5px;
+    }
+    50% {
+        top: 11px;
+    }
+    100% {
+        top: 5.5px;
+    }
+}

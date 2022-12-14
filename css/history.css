@@ -1,0 +1,99 @@
+/* =================== Section - history-1 =================== */
+
+.history-1 {
+    height: 100vh;
+    background: url("/img/history-img1.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.history-1 .heading {
+    color: #fff;
+    text-align: center;
+}
+
+.history-1 .heading p {
+    padding-top: 8px;
+    font-size: 26px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.history-1 .heading p span {
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+}
+
+/* =================== Section - history-2 =================== */
+
+.history-2 {
+    overflow: hidden;
+}
+
+.history2-content {
+    padding: 150px 0;
+    display: flex;
+}
+
+.history2-content div {
+    padding: 30px;
+}
+
+.desc {
+    flex: 2.6;
+    text-align: center;
+}
+
+.desc h2 {
+    margin-bottom: 35px;
+    font-size: 40px;
+}
+
+.desc p {
+    font-size: 17px;
+    line-height: 1.9em;
+}
+
+.history2-content .photo {
+    padding-top: 70px;
+    padding-left: 45px;
+}
+
+.photo {
+    flex: 2.4;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+/* =================== Section - history-3 =================== */
+
+.history-3 {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+
+.history3-content {
+    padding: 150px 0;
+    display: flex;
+}
+
+.history3-content div {
+    padding: 30px;
+}
+
+.history3-content .desc h2 {
+    margin-bottom: 30px;
+    line-height: 1.6em;
+}
+
+.history3-content .photo {
+    padding-top: 140px;
+    padding-right: 55px;
+}
+

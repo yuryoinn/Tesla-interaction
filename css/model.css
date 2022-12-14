@@ -1,0 +1,31 @@
+.model-intro {
+    height: 100vh;
+    background: url("../img/model.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.model-intro .heading {
+    text-align: center;
+    color: #fff;
+}
+
+.model-intro .heading h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    line-height: 1.6em;
+}
+
+.model-intro .heading h1 em {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.model-intro .heading p {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #ddd;
+    font-family: 'Exo 2', sans-serif;
+}

@@ -1,0 +1,47 @@
+/* =================== Footer =================== */
+
+footer {
+    padding: 40px 0;
+    background-color: #000;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.footer-content ul li {
+    line-height: 1.8em;
+}
+
+.footer-content ul li:first-child {
+    color: #eee;
+    font-weight: 500;
+}
+
+.footer-content ul li a {
+    color: #959595;
+    font-weight: 300;
+}
+
+.community {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.help {
+    padding-right: 20px;
+    flex: 3;
+}
+
+.help li {
+    color: #959595;
+}
+
+.help li:last-child {
+    margin-top: 25px;
+    color: #fff;
+}

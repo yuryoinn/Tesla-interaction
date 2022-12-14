@@ -1,0 +1,229 @@
+.model-s-intro {
+    height: 100vh;
+    background: url("/img/model-s.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.model-s-intro .heading {
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+.model-s-intro .heading h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    color: #000;
+}
+
+.model-s-intro .heading p {
+    margin: 0;
+    font-size: 25px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.intro-desc {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-desc div {
+    margin: 50px;
+}
+
+.intro-desc .desc1 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc1 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc1 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc .desc2 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc2 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc2 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc .desc3 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc3 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc3 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc .desc4 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc4 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc4 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* =================== Section - interier =================== */
+
+.interier {
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+.interier .heading {
+    padding: 150px 0 100px 0;
+    text-align: center;
+}
+
+.interier .heading h2 {
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+}
+
+.interier .heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.interier-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interier-content1,
+.interier-content2 {
+    margin-right: 40px;
+}
+
+.interier-img {
+    width: 400px;
+}
+
+.interier-img img {
+    width: 100%;
+}
+
+.interier-wrap .desc h3 {
+    font-size: 22px;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.interier-wrap .desc p {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* =================== Section - outerier =================== */
+
+.outerier {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.outerier .heading {
+    padding: 150px 0 100px 0;
+    text-align: center;
+}
+
+.outerier .heading h2 {
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+}
+
+.outerier .heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.outerier-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerier-content1,
+.outerier-content2 {
+    margin-right: 40px;
+}
+
+.outerier-img {
+    width: 400px;
+}
+
+.outerier-img img {
+    width: 100%;
+}
+
+.outerier-wrap .desc h3 {
+    font-size: 22px;
+    color: #000;
+    margin: 30px 0;
+}
+
+.outerier-wrap .desc p {
+    font-size: 14px;
+    color: #000;
+}
+
+/* 레이아웃 */
+
+.model-s-wrap {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.panel {
+    will-change: transform;
+}

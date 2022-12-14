@@ -1,0 +1,34 @@
+/* =================== Header - nav =================== */
+
+nav {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    padding-top: 17px;
+}
+
+.gnb li a {
+    margin: 50px;
+    color: #fff;
+}
+
+.gnb li a:hover {
+    text-decoration: underline;
+}
+
+.gnb li a:last-child {
+    margin-right: 0;
+}
